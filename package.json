@@ -1,20 +1,14 @@
 {
-  "name": "plugin-identifier",
-  "version": "1.5.1",
+  "name": "@lobehub/chat-plugin-bilibili",
+  "version": "1.0.0",
   "private": true,
-  "description": "This is the plugin template for LobeChat plugin development",
-  "homepage": "https://github.com/lobehub/chat-plugin-template",
-  "repository": "https://github.com/lobehub/chat-plugin-template.git",
-  "workspaces": [
-    "docs/*",
-    "./*"
-  ],
+  "description": "Dive into Bilibili's vast content with features like keyword video search, replay access, interactive danmaku, trending video recommendations, and hot-search insights, all at your fingertips.",
+  "homepage": "https://github.com/lobehub/chat-plugin-bilibili",
+  "repository": "https://github.com/lobehub/chat-plugin-bilibili.git",
   "scripts": {
-    "build": "npm run docs:build && next build",
+    "build": "next build",
     "ci": "npm run lint && npm run type-check",
     "dev": "next dev -p 3400",
-    "docs:build": "cd docs && npm run build",
-    "docs:dev": "cd docs && npm run dev",
     "lint": "eslint \"{src,api,docs}/**/*.{js,jsx,ts,tsx}\" --fix",
     "lint:md": "remark . --quiet --frail --output",
     "lint:style": "stylelint \"src/**/*.{js,jsx,ts,tsx}\" --fix",
@@ -37,12 +31,10 @@
     ],
     "*.{js,jsx}": [
       "prettier --write",
-      "stylelint --fix",
       "eslint --fix"
     ],
     "*.{ts,tsx}": [
       "prettier --parser=typescript --write",
-      "stylelint --fix",
       "eslint --fix"
     ]
   },
@@ -54,14 +46,10 @@
   "dependencies": {
     "@lobehub/chat-plugin-sdk": "^1",
     "@lobehub/chat-plugins-gateway": "^1",
-    "@lobehub/ui": "latest",
-    "antd": "^5",
-    "antd-style": "^3",
-    "dayjs": "^1",
+    "fast-xml-parser": "^4",
     "next": "13.4.7",
     "react": "^18",
-    "react-dom": "^18",
-    "react-layout-kit": "^1"
+    "react-dom": "^18"
   },
   "devDependencies": {
     "@commitlint/cli": "^18",
@@ -79,12 +67,7 @@
     "remark": "^14",
     "remark-cli": "^11",
     "semantic-release": "^21",
-    "stylelint": "^15",
     "typescript": "^5",
     "vitest": "latest"
-  },
-  "peerDependencies": {
-    "react": ">=18",
-    "react-dom": ">=18"
   }
 }
