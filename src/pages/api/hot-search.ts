@@ -1,6 +1,6 @@
 import { PluginErrorType, createErrorResponse } from '@lobehub/chat-plugin-sdk';
 
-import { fetchHotSearch } from '../servers/fetchHotSearch';
+import { fetchHotSearch } from '@/servers/fetchHotSearch';
 
 export const config = {
   runtime: 'edge',

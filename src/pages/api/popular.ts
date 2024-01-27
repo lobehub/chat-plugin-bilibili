@@ -1,6 +1,6 @@
 import { PluginErrorType, createErrorResponse } from '@lobehub/chat-plugin-sdk';
 
-import { fetchPopular } from '../servers/fetchPopular';
+import { fetchPopular } from '@/servers/fetchPopular';
 
 export const config = {
   runtime: 'edge',

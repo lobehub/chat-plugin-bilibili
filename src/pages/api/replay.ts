@@ -1,6 +1,6 @@
 import { PluginErrorType, createErrorResponse } from '@lobehub/chat-plugin-sdk';
 
-import { fetchReplay } from '../servers/fetchReplay';
+import { fetchReplay } from '@/servers/fetchReplay';
 
 export const config = {
   runtime: 'edge',

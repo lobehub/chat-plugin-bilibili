@@ -1,6 +1,6 @@
 import { PluginErrorType, createErrorResponse } from '@lobehub/chat-plugin-sdk';
 
-import { fetchSearch } from '../servers/fetchSearch';
+import { fetchSearch } from '@/servers/fetchSearch';
 
 export const config = {
   runtime: 'edge',

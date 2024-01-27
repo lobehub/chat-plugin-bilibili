@@ -1,6 +1,6 @@
 import { PluginErrorType, createErrorResponse } from '@lobehub/chat-plugin-sdk';
 
-import { fetchDanmaku } from '../servers/fetchDanmaku';
+import { fetchDanmaku } from '@/servers/fetchDanmaku';
 
 export const config = {
   runtime: 'edge',
