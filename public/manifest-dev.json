@@ -49,7 +49,7 @@
     {
       "url": "http://localhost:3400/api/popular",
       "name": "popularVideo",
-      "description": "get popular videos from bilibili",
+      "description": "get global popular videos from bilibili with no keywords",
       "parameters": {
         "properties": {},
         "type": "object"
