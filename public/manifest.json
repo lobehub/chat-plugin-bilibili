@@ -57,7 +57,7 @@
     },
     {
       "url": "https://bilibili.chat-plugin.lobehub.com/api/hot-search",
-      "name": "popularVideo",
+      "name": "hotSearch",
       "description": "get hot-search keywords from bilibili, return top 10 keywords",
       "parameters": {
         "properties": {},
