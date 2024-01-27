@@ -47,7 +47,7 @@
     "@lobehub/chat-plugin-sdk": "^1",
     "@lobehub/chat-plugins-gateway": "^1",
     "fast-xml-parser": "^4",
-    "next": "13.4.7",
+    "next": "13.5.1",
     "react": "^18",
     "react-dom": "^18"
   },
