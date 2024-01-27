@@ -2,6 +2,40 @@
 
 # Changelog
 
+## Version 1.0.0
+
+<sup>Released on **2024-01-27**</sup>
+
+#### ✨ Features
+
+- **misc**: Add bilibili plugin.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix manifest, Fix path.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add bilibili plugin ([7f26689](https://github.com/lobehub/chat-plugin-bilibili/commit/7f26689))
+
+#### What's fixed
+
+- **misc**: Fix manifest ([f557bb8](https://github.com/lobehub/chat-plugin-bilibili/commit/f557bb8))
+- **misc**: Fix path ([d895547](https://github.com/lobehub/chat-plugin-bilibili/commit/d895547))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.5.1](https://github.com/lobehub/chat-plugin-bilibili/compare/v1.5.0...v1.5.1)
 
 <sup>Released on **2024-01-11**</sup>
