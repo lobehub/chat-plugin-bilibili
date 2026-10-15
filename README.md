@@ -3,7 +3,7 @@
 <div align="center">
 
 <img height="120" src="https://registry.npmmirror.com/@lobehub/assets-emoji/1.3.0/files/assets/puzzle-piece.webp">
-<img height="120" src="https://gw.alipayobjects.com/zos/kitchen/qJ3l3EPsdW/split.svg">
+<img height="120" src="https://raw.githubusercontent.com/lobehub/lobe-assets/master/packages/assets-logo/assets/split.svg">
 <img height="120" src="https://github.com/lobehub/chat-plugin-bilibili/assets/17870709/a1f134cc-3198-4003-907a-6acd6ebcc409">
 
 <h1>Bilibili<br/><sup>LobeChat Plugin</sup></h1>
